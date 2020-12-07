@@ -48,7 +48,7 @@ def create_input():
 
     return stream
 
-
+#Measure the RMS of the audio to determine the volume
 def volume_check(stream):
 
     data = stream.read(CHUNK)
